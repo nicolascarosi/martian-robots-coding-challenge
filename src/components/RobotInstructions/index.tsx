@@ -98,10 +98,12 @@ const RobotInstructions: React.FC<{}> = () => {
             <div className="form-element">
                 <label>Robot initial direction</label>
                 <input type="text" value={initialDirectionValue} onChange={handleChangeRobotDirection} placeholder="N, S, E, W" />
+                <span>N: North, S: South, E: East, W: West</span>
             </div>
             <div className="form-element">
                 <label>Robot instructions</label>
                 <input type="text" value={instructionsValue} onChange={handleChangeRobotInstructions} placeholder="L, R, F" />
+                <span>L: Turn left, R: Turn right, F: Forward</span>
             </div>
             <button onClick={handleClickMoveRobot} disabled={!isFormValid()}>Move robot</button>
         </section>
