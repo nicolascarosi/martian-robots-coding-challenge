@@ -62,8 +62,8 @@ const useBoardData = () => {
     setState((prevState: InitialContextTypes) => ({
       ...prevState,
       board: {
-        width: boardWidth,
-        height: boardHeight,
+        width: (boardWidth - 1),
+        height: (boardHeight - 1),
         grid: constructBoardGrid(boardWidth, boardHeight) 
       }
     }), setBoardBuilded(true));
@@ -79,7 +79,7 @@ const useBoardData = () => {
   }
 
   const isOutsideBoard = (position: cordinateTypes):boolean => {
-    if (position.x < 0 || position.x >= state.board.width || position.y < 0 || position.y >= state.board.height) {
+    if (position.x < 0 || position.x > state.board.width || position.y < 0 || position.y > state.board.height) {
       return true;
     }
     return false
