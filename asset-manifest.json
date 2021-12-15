@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/martian-robots-coding-challenge/static/css/main.37cd7335.chunk.css",
+    "main.js": "/martian-robots-coding-challenge/static/js/main.346d4dd6.chunk.js",
+    "main.js.map": "/martian-robots-coding-challenge/static/js/main.346d4dd6.chunk.js.map",
+    "runtime-main.js": "/martian-robots-coding-challenge/static/js/runtime-main.d751523a.js",
+    "runtime-main.js.map": "/martian-robots-coding-challenge/static/js/runtime-main.d751523a.js.map",
+    "static/js/2.51f40b47.chunk.js": "/martian-robots-coding-challenge/static/js/2.51f40b47.chunk.js",
+    "static/js/2.51f40b47.chunk.js.map": "/martian-robots-coding-challenge/static/js/2.51f40b47.chunk.js.map",
+    "index.html": "/martian-robots-coding-challenge/index.html",
+    "static/css/main.37cd7335.chunk.css.map": "/martian-robots-coding-challenge/static/css/main.37cd7335.chunk.css.map",
+    "static/js/2.51f40b47.chunk.js.LICENSE.txt": "/martian-robots-coding-challenge/static/js/2.51f40b47.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d751523a.js",
+    "static/js/2.51f40b47.chunk.js",
+    "static/css/main.37cd7335.chunk.css",
+    "static/js/main.346d4dd6.chunk.js"
+  ]
+}
